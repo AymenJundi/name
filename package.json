@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://AymenJundi.github.io/Bahar",
+  "homepage": "https://AymenJundi.github.io/name",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
