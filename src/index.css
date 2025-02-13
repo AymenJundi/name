@@ -1,0 +1,243 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* Dark Teal Gradient with #2d52e3 */
+.dark-teal-gradient {
+  background: linear-gradient(to right, #001f2d, #2d52e3, #006b7d);
+}
+
+/* Vibrant Blue Gradient with #2d52e3 */
+.vibrant-blue-gradient {
+  background: linear-gradient(to bottom, #2d52e3, #0077ff, #00c8ff);
+}
+
+/* Dark Blue Gradient with #2d52e3 */
+.blue-gradient {
+  background: linear-gradient(to bottom, #000721 0%, #2d52e3 50%, #0045af 100%);
+}
+
+/* Glow Effect with #2d52e3 */
+.blue-glow {
+  background: #2d52e3;
+  box-shadow: 0 4px 15px rgba(45, 82, 227, 0.6);
+  color: white;
+  border-radius: 5px;
+}
+
+/* Text Gradient with #2d52e3 */
+.blue-text-gradient {
+  background: linear-gradient(to top, #000721, #2d52e3);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* --- New Colors and Gradients Related to #ff4338 --- */
+
+/* Dark Red Gradient */
+.dark-red-gradient {
+  background: linear-gradient(to right, #3e0c00, #5c1a14, #7d2a24);
+}
+
+/* Vibrant Red Gradient */
+.vibrant-red-gradient {
+  background: linear-gradient(to bottom, #ff4338, #ff5b47, #ff7a5f);
+}
+
+/* Dark Red Gradient */
+.red-gradient {
+  background: linear-gradient(to bottom, #3e0c00 0%, #5c1a14 50%, #ff4338 100%);
+}
+
+/* Glow Effect */
+.red-glow {
+  background: #ff4338;
+  box-shadow: 0 4px 15px rgba(255, 67, 56, 0.6);
+  color: white;
+  border-radius: 5px;
+}
+
+/* Text Gradient */
+
+.vibrant-red-text-gradient {
+  background: linear-gradient(to top, #ff4338, #ff5b47, #ff7a5f); 
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.red-text-gradient {
+  background: linear-gradient(to top, #3e0c00, #ff4338);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.red-glow-gradient {
+  background: linear-gradient(to top, #3e0c00, #ff4338); /* Gradient from dark red to red */
+  -webkit-text-fill-color: transparent; /* Make text fill transparent to show the gradient */
+  background-clip: text; /* Apply the gradient to the text */
+  text-shadow: 0 0 8px rgba(255, 67, 56, 0.8), /* Red glow */
+               0 0 20px rgba(255, 67, 56, 0.6), /* Larger glow */
+               0 0 30px rgba(255, 67, 56, 0.4); /* Further depth */
+  font-weight: bold; /* Make the text bold */
+}
+
+
+
+/* --- New Colors and Gradients Related to #EC5D0E --- */
+
+.dark-teal-gradient {
+  background: linear-gradient(to right, #001f2d, #004058, #006b7d);
+}
+
+.vibrant-blue-gradient {
+  background: linear-gradient(to bottom, #0045af, #0077ff, #00c8ff);
+}
+
+
+/* Dark Blue Gradient */
+.blue-gradient {
+  background: linear-gradient(to bottom, #000721 0%, #010e42 50%, #0045af 100%);
+}
+
+/* Glow Effect */
+.blue-glow {
+  background: #0045af;
+  box-shadow: 0 4px 15px rgba(0, 71, 175, 0.6);
+  color: white;
+  border-radius: 5px;
+}
+
+
+/* Text Gradient */
+.blue-text-gradient {
+  background: linear-gradient(to top, #000721, #0045af);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+
+.blue-glow-gradient {
+  background: linear-gradient(to top, #000721, #0045af); /* Gradient from dark blue to blue */
+  -webkit-text-fill-color: transparent; /* Make text fill transparent to show the gradient */
+  background-clip: text; /* Apply the gradient to the text */
+  text-shadow: 0 0 8px rgba(0, 71, 175, 0.8), /* Blue glow */
+               0 0 20px rgba(0, 71, 175, 0.6), /* Larger glow */
+               0 0 30px rgba(0, 71, 175, 0.4); /* Further depth */
+  font-weight: bold; /* Make the text bold */
+}
+
+
+
+
+/* Vibrant Orange Gradient */
+.orange-gradient {
+  background: linear-gradient(to right, #ec5d0e, #f78e2d);
+}
+
+/* Soft Orange Gradient */
+.soft-orange-gradient {
+  background: #ec5d0e;
+  background: -webkit-linear-gradient(to bottom, #ec5d0e 0%, #ffb380 100%);
+  background: linear-gradient(to bottom, #ec5d0e 0%, #ffb380 100%);
+}
+
+/* Orange Glow Effect */
+.orange-glow {
+  background: #ec5d0e;
+  box-shadow: 0 4px 15px rgba(236, 93, 14, 0.6);
+  color: white;
+  border-radius: 5px;
+}
+
+/* Orange Text Gradient */
+.orange-text-gradient {
+  background: linear-gradient(to top, #f12711, #f5af19);
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Orange Button */
+.orange-button {
+  background: #ec5d0e;
+  border: 2px solid #f78e2d;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.orange-button:hover {
+  background: #f78e2d;
+  border-color: #ec5d0e;
+  box-shadow: 0 4px 10px rgba(236, 93, 14, 0.5);
+}
+
+/* Subtle Orange Background */
+.subtle-orange-bg {
+  background: rgba(236, 93, 14, 0.1);
+}
+
+/* Orange Border */
+.orange-border {
+  border: 2px solid #ec5d0e;
+  border-radius: 10px;
+}
+
+/* Orange Text Shadow */
+.orange-text-shadow {
+  color: #ec5d0e;
+  text-shadow: 0 2px 5px rgba(236, 93, 14, 0.6);
+}
+
+/* Orange Highlight for Links */
+a.orange-link {
+  color: #ec5d0e;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a.orange-link:hover {
+  color: #f78e2d;
+}
+
+/* Canvas Styles */
+.canvas-loader {
+  font-size: 10px;
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  position: relative;
+  text-indent: -9999em;
+  animation: mulShdSpin 1.1s infinite ease;
+  transform: translateZ(0);
+}
+
+/* Smooth scrolling for the entire HTML document */
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes mulShdSpin {
+  0%, 100% {
+    box-shadow: 0em -2.6em 0em 0em #ffffff,
+                1.8em -1.8em 0 0em rgba(255, 255, 255, 0.2),
+                2.5em 0em 0 0em rgba(255, 255, 255, 0.2),
+                1.75em 1.75em 0 0em rgba(255, 255, 255, 0.2),
+                0em 2.5em 0 0em rgba(255, 255, 255, 0.2),
+                -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.2),
+                -2.6em 0em 0 0em rgba(255, 255, 255, 0.5),
+                -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.7);
+  }
+  12.5% {
+    box-shadow: 0em -2.6em 0em 0em rgba(255, 255, 255, 0.7),
+                1.8em -1.8em 0 0em #ffffff,
+                2.5em 0em 0 0em rgba(255, 255, 255, 0.2),
+                1.75em 1.75em 0 0em rgba(255, 255, 255, 0.2),
+                0em 2.5em 0 0em rgba(255, 255, 255, 0.2),
+                -1.8em 1.8em 0 0em rgba(255, 255, 255, 0.2),
+                -2.6em 0em 0 0em rgba(255, 255, 255, 0.2),
+                -1.8em -1.8em 0 0em rgba(255, 255, 255, 0.5);
+  }
+  /* More keyframes can go here... */
+}
